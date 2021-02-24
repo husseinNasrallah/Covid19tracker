@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004577"
+    tools:context=".menuActivity">
+
+    <ImageView
+        android:layout_width="556dp"
+        android:layout_height="869dp"
+        android:src="@drawable/background"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-73dp"
+        tools:layout_editor_absoluteY="-42dp"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/listname"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:shadowColor="#D8BFD8"
+
+        android:text="@string/list_by_ap_name"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
+
+    <Button
+        android:id="@+id/listlocation"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="112dp"
+
+        android:shadowColor="#D8BFD8"
+        android:text="@string/location"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/listname"
+        app:layout_constraintVertical_bias="0.011" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

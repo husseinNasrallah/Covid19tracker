@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Corona</string>
+    <string name="list_by_ap_name">List By AP Name</string>
+    <string name="todo">TODO</string>
+    <string name="List_by_Location" />
+    <string name="list_by_location">List_by_Location</string>
+    <string name="list_by_position">list by position</string>
+    <string name="location">location</string>
+</resources>
